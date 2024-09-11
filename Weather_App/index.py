@@ -4,7 +4,7 @@ import requests
 
 # Function to retrieve weather data
 def get_weather():
-    api_key = '83550a5901ae44164349fdc923989917'
+    api_key = 'my_api_key'
     user_input = city_entry.get()
 
     try:
